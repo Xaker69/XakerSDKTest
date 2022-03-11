@@ -1,15 +1,22 @@
 PODS:
-  - XakerSDKTest (0.1.0)
+  - SnapKit (5.0.1)
+  - XakerSDKTest (0.1.0):
+    - SnapKit
 
 DEPENDENCIES:
   - XakerSDKTest (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - SnapKit
 
 EXTERNAL SOURCES:
   XakerSDKTest:
     :path: "../"
 
 SPEC CHECKSUMS:
-  XakerSDKTest: 193c4466e59e8733e3ccc606b64a87f5dea3aa8f
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+  XakerSDKTest: 77045eacb6378382893dc2fc6bfcc53c9c48292f
 
 PODFILE CHECKSUM: 78cf1e65fb043e0522d9112670825941ec9a4db4
 

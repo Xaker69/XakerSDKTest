@@ -30,13 +30,13 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '12.0'
   s.swift_version = '4.0'
 
-  s.source_files = 'XakerSDKTest/Classes/**/*'
-  
+  s.source_files = ["XakerSDKTest/Classes/*.swift", "XakerSDKTest/Classes/**/*"
+
   # s.resource_bundles = {
   #   'XakerSDKTest' => ['XakerSDKTest/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.frameworks = 'Foundation'
+  s.dependency 'SnapKit'
 end

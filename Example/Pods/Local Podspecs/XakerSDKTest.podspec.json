@@ -20,4 +20,12 @@
   },
   "swift_versions": "4.0",
   "source_files": "XakerSDKTest/Classes/**/*",
+  "public_header_files": "Pod/Classes/**/*.h",
+  "frameworks": "Foundation",
+  "dependencies": {
+    "SnapKit": [
+
+    ]
+  },
+  "swift_version": "4.0"
 }
