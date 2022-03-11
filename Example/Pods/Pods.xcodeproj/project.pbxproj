@@ -9,9 +9,11 @@
 /* Begin PBXBuildFile section */
 		056CBAC7A05C41E403C522AC5BEE62FD /* Pods-XakerSDKTest_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CAD4C0575FF0A78F734277859C721CA /* Pods-XakerSDKTest_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		10A9C6A431DD986D1DA1EF4CC1CF12CB /* XakerSDKTest-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A4EC88A2424B941A108969D7E3FA0F9 /* XakerSDKTest-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2119ED5427DBBD6100B7B576 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2119ED5327DBBD6100B7B576 /* RegistrationViewController.swift */; };
+		2119ED5727DBC1C400B7B576 /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2119ED5627DBC1C400B7B576 /* RegistrationView.swift */; };
 		43384A358816A0251978023DEB44603C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		4D95727C5433AE35A29E585682C5058F /* XakerSDKTest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 18218398327CFAE12E7549CDF09F3911 /* XakerSDKTest-dummy.m */; };
-		72E2EB047C2658DB490EF460CB80214F /* SomeClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF86AF81EF41007D7DA31157B850B8BE /* SomeClass.swift */; };
+		72E2EB047C2658DB490EF460CB80214F /* XakerSDK.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF86AF81EF41007D7DA31157B850B8BE /* XakerSDK.swift */; };
 		8CDB12418ED46B34D7C63921093BFF2B /* Pods-XakerSDKTest_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F8E01738555BE62809FE566AA4ED897 /* Pods-XakerSDKTest_Example-dummy.m */; };
 		D27F655BFDB350E31F5B874FA3207FEA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 /* End PBXBuildFile section */
@@ -28,15 +30,17 @@
 
 /* Begin PBXFileReference section */
 		0178885F8B04F3BB4BAFBC35A93B8F87 /* Pods-XakerSDKTest_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XakerSDKTest_Example.modulemap"; sourceTree = "<group>"; };
-		0BE5E8D04FB72732CC71A84D97A29294 /* Pods-XakerSDKTest_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-XakerSDKTest_Example"; path = Pods_XakerSDKTest_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BE5E8D04FB72732CC71A84D97A29294 /* Pods_XakerSDKTest_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XakerSDKTest_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EE6A52034F9C8D92C6D84A918D17D19 /* Pods-XakerSDKTest_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XakerSDKTest_Example-frameworks.sh"; sourceTree = "<group>"; };
 		18218398327CFAE12E7549CDF09F3911 /* XakerSDKTest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XakerSDKTest-dummy.m"; sourceTree = "<group>"; };
-		1905DE2E0CE672D96ACC9F06BC600669 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		1905DE2E0CE672D96ACC9F06BC600669 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		1D21BFFA966F6AB26D6548AE8B75C7AD /* XakerSDKTest */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XakerSDKTest; path = XakerSDKTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2CA948D67C0541B6A37C1F83980C3B34 /* XakerSDKTest.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = XakerSDKTest.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		2119ED5327DBBD6100B7B576 /* RegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
+		2119ED5627DBC1C400B7B576 /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
+		2CA948D67C0541B6A37C1F83980C3B34 /* XakerSDKTest.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = XakerSDKTest.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		2CAD4C0575FF0A78F734277859C721CA /* Pods-XakerSDKTest_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XakerSDKTest_Example-umbrella.h"; sourceTree = "<group>"; };
 		374D403546863C843BE8366C68630EF8 /* XakerSDKTest-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XakerSDKTest-prefix.pch"; sourceTree = "<group>"; };
-		46724751A917A7E6DE0C30951E647885 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		46724751A917A7E6DE0C30951E647885 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		4AA9EB49EFD26A4E699ACA1BC8693DC2 /* XakerSDKTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XakerSDKTest.release.xcconfig; sourceTree = "<group>"; };
 		4F8E01738555BE62809FE566AA4ED897 /* Pods-XakerSDKTest_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XakerSDKTest_Example-dummy.m"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -44,10 +48,10 @@
 		85F8A00196A199FC646D4948890E1CCD /* XakerSDKTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XakerSDKTest.debug.xcconfig; sourceTree = "<group>"; };
 		8A4EC88A2424B941A108969D7E3FA0F9 /* XakerSDKTest-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XakerSDKTest-umbrella.h"; sourceTree = "<group>"; };
 		8B65514ADC534F53E26C3A7949F6E1FE /* Pods-XakerSDKTest_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XakerSDKTest_Example.release.xcconfig"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B26C19FF28EB67F1646AE090202D23DF /* XakerSDKTest-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "XakerSDKTest-Info.plist"; sourceTree = "<group>"; };
 		BA0AD51DF969D991D9FF91E88581E3C5 /* Pods-XakerSDKTest_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XakerSDKTest_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		BF86AF81EF41007D7DA31157B850B8BE /* SomeClass.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SomeClass.swift; path = XakerSDKTest/Classes/SomeClass.swift; sourceTree = "<group>"; };
+		BF86AF81EF41007D7DA31157B850B8BE /* XakerSDK.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = XakerSDK.swift; sourceTree = "<group>"; };
 		D7E3155CCD5B1502CC3EBFDE6FD54224 /* Pods-XakerSDKTest_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XakerSDKTest_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		DCADB117A659FA18B83C58B2462A3A5D /* XakerSDKTest.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XakerSDKTest.modulemap; sourceTree = "<group>"; };
 		E89A59EC582FA3871850084E4D31280C /* Pods-XakerSDKTest_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XakerSDKTest_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -76,10 +80,43 @@
 		0F06F5552153CA023910E0D92CACA59A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0BE5E8D04FB72732CC71A84D97A29294 /* Pods-XakerSDKTest_Example */,
+				0BE5E8D04FB72732CC71A84D97A29294 /* Pods_XakerSDKTest_Example.framework */,
 				1D21BFFA966F6AB26D6548AE8B75C7AD /* XakerSDKTest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		2119ED5027DBBC5B00B7B576 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				BF86AF81EF41007D7DA31157B850B8BE /* XakerSDK.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		2119ED5127DBBD2D00B7B576 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				2119ED5227DBBD3300B7B576 /* Registration */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		2119ED5227DBBD3300B7B576 /* Registration */ = {
+			isa = PBXGroup;
+			children = (
+				2119ED5527DBC1AD00B7B576 /* View */,
+				2119ED5327DBBD6100B7B576 /* RegistrationViewController.swift */,
+			);
+			path = Registration;
+			sourceTree = "<group>";
+		};
+		2119ED5527DBC1AD00B7B576 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2119ED5627DBC1C400B7B576 /* RegistrationView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		3A23DF86B71F8517F1B1358BDEE80373 /* Support Files */ = {
@@ -170,7 +207,8 @@
 		D5E0287D37730D2261FC841A3865E297 /* XakerSDKTest */ = {
 			isa = PBXGroup;
 			children = (
-				BF86AF81EF41007D7DA31157B850B8BE /* SomeClass.swift */,
+				2119ED5127DBBD2D00B7B576 /* Module */,
+				2119ED5027DBBC5B00B7B576 /* Common */,
 				4E8B36762D8EF93FEBAB6DFDF076343E /* Pod */,
 				3A23DF86B71F8517F1B1358BDEE80373 /* Support Files */,
 			);
@@ -216,7 +254,7 @@
 			);
 			name = "Pods-XakerSDKTest_Example";
 			productName = Pods_XakerSDKTest_Example;
-			productReference = 0BE5E8D04FB72732CC71A84D97A29294 /* Pods-XakerSDKTest_Example */;
+			productReference = 0BE5E8D04FB72732CC71A84D97A29294 /* Pods_XakerSDKTest_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		C9682AB8AB297F2E3A63A549661CC36E /* XakerSDKTest */ = {
@@ -245,6 +283,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					19AC8E6C56581E76EAE1C5251E4F7CD5 = {
+						LastSwiftMigration = 1320;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -287,6 +330,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2119ED5727DBC1C400B7B576 /* RegistrationView.swift in Sources */,
+				2119ED5427DBBD6100B7B576 /* RegistrationViewController.swift in Sources */,
 				8CDB12418ED46B34D7C63921093BFF2B /* Pods-XakerSDKTest_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -295,7 +340,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				72E2EB047C2658DB490EF460CB80214F /* SomeClass.swift in Sources */,
+				72E2EB047C2658DB490EF460CB80214F /* XakerSDK.swift in Sources */,
 				4D95727C5433AE35A29E585682C5058F /* XakerSDKTest-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -318,6 +363,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -340,6 +386,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -468,8 +515,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -481,6 +527,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -503,6 +550,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
