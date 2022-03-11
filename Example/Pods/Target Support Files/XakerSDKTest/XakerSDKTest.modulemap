@@ -1,0 +1,6 @@
+framework module XakerSDKTest {
+  umbrella header "XakerSDKTest-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - XakerSDKTest (0.1.0)
+
+DEPENDENCIES:
+  - XakerSDKTest (from `../`)
+
+EXTERNAL SOURCES:
+  XakerSDKTest:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  XakerSDKTest: a35092c6e4aa285936661a501410f51d97c1a2e4
+
+PODFILE CHECKSUM: 78cf1e65fb043e0522d9112670825941ec9a4db4
+
+COCOAPODS: 1.11.2

@@ -1,13 +1,8 @@
 use_frameworks!
 
-platform :ios, '9.0'
+platform :ios, '12.0'
 
 target 'XakerSDKTest_Example' do
   pod 'XakerSDKTest', :path => '../'
-
-  target 'XakerSDKTest_Tests' do
-    inherit! :search_paths
-
     
-  end
 end

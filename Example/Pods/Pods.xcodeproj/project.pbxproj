@@ -1,0 +1,610 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		056CBAC7A05C41E403C522AC5BEE62FD /* Pods-XakerSDKTest_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CAD4C0575FF0A78F734277859C721CA /* Pods-XakerSDKTest_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		10A9C6A431DD986D1DA1EF4CC1CF12CB /* XakerSDKTest-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A4EC88A2424B941A108969D7E3FA0F9 /* XakerSDKTest-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43384A358816A0251978023DEB44603C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		4D95727C5433AE35A29E585682C5058F /* XakerSDKTest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 18218398327CFAE12E7549CDF09F3911 /* XakerSDKTest-dummy.m */; };
+		72E2EB047C2658DB490EF460CB80214F /* SomeClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF86AF81EF41007D7DA31157B850B8BE /* SomeClass.swift */; };
+		8CDB12418ED46B34D7C63921093BFF2B /* Pods-XakerSDKTest_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F8E01738555BE62809FE566AA4ED897 /* Pods-XakerSDKTest_Example-dummy.m */; };
+		D27F655BFDB350E31F5B874FA3207FEA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		72722C16FA504F7562FFAB0BD74797CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9682AB8AB297F2E3A63A549661CC36E;
+			remoteInfo = XakerSDKTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0178885F8B04F3BB4BAFBC35A93B8F87 /* Pods-XakerSDKTest_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XakerSDKTest_Example.modulemap"; sourceTree = "<group>"; };
+		0BE5E8D04FB72732CC71A84D97A29294 /* Pods-XakerSDKTest_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-XakerSDKTest_Example"; path = Pods_XakerSDKTest_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EE6A52034F9C8D92C6D84A918D17D19 /* Pods-XakerSDKTest_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XakerSDKTest_Example-frameworks.sh"; sourceTree = "<group>"; };
+		18218398327CFAE12E7549CDF09F3911 /* XakerSDKTest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XakerSDKTest-dummy.m"; sourceTree = "<group>"; };
+		1905DE2E0CE672D96ACC9F06BC600669 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		1D21BFFA966F6AB26D6548AE8B75C7AD /* XakerSDKTest */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XakerSDKTest; path = XakerSDKTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CA948D67C0541B6A37C1F83980C3B34 /* XakerSDKTest.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = XakerSDKTest.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		2CAD4C0575FF0A78F734277859C721CA /* Pods-XakerSDKTest_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XakerSDKTest_Example-umbrella.h"; sourceTree = "<group>"; };
+		374D403546863C843BE8366C68630EF8 /* XakerSDKTest-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XakerSDKTest-prefix.pch"; sourceTree = "<group>"; };
+		46724751A917A7E6DE0C30951E647885 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		4AA9EB49EFD26A4E699ACA1BC8693DC2 /* XakerSDKTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XakerSDKTest.release.xcconfig; sourceTree = "<group>"; };
+		4F8E01738555BE62809FE566AA4ED897 /* Pods-XakerSDKTest_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XakerSDKTest_Example-dummy.m"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		79BAEDB8A839527B6E9E21CB9C59CC45 /* Pods-XakerSDKTest_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XakerSDKTest_Example-Info.plist"; sourceTree = "<group>"; };
+		85F8A00196A199FC646D4948890E1CCD /* XakerSDKTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XakerSDKTest.debug.xcconfig; sourceTree = "<group>"; };
+		8A4EC88A2424B941A108969D7E3FA0F9 /* XakerSDKTest-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XakerSDKTest-umbrella.h"; sourceTree = "<group>"; };
+		8B65514ADC534F53E26C3A7949F6E1FE /* Pods-XakerSDKTest_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XakerSDKTest_Example.release.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B26C19FF28EB67F1646AE090202D23DF /* XakerSDKTest-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "XakerSDKTest-Info.plist"; sourceTree = "<group>"; };
+		BA0AD51DF969D991D9FF91E88581E3C5 /* Pods-XakerSDKTest_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XakerSDKTest_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		BF86AF81EF41007D7DA31157B850B8BE /* SomeClass.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SomeClass.swift; path = XakerSDKTest/Classes/SomeClass.swift; sourceTree = "<group>"; };
+		D7E3155CCD5B1502CC3EBFDE6FD54224 /* Pods-XakerSDKTest_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XakerSDKTest_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		DCADB117A659FA18B83C58B2462A3A5D /* XakerSDKTest.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XakerSDKTest.modulemap; sourceTree = "<group>"; };
+		E89A59EC582FA3871850084E4D31280C /* Pods-XakerSDKTest_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XakerSDKTest_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0F9A016FFE0F0CFEEDFDE1E3AC3956E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D27F655BFDB350E31F5B874FA3207FEA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		823ED03882B64AF8F2C701D2DF54769E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43384A358816A0251978023DEB44603C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F06F5552153CA023910E0D92CACA59A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0BE5E8D04FB72732CC71A84D97A29294 /* Pods-XakerSDKTest_Example */,
+				1D21BFFA966F6AB26D6548AE8B75C7AD /* XakerSDKTest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3A23DF86B71F8517F1B1358BDEE80373 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DCADB117A659FA18B83C58B2462A3A5D /* XakerSDKTest.modulemap */,
+				18218398327CFAE12E7549CDF09F3911 /* XakerSDKTest-dummy.m */,
+				B26C19FF28EB67F1646AE090202D23DF /* XakerSDKTest-Info.plist */,
+				374D403546863C843BE8366C68630EF8 /* XakerSDKTest-prefix.pch */,
+				8A4EC88A2424B941A108969D7E3FA0F9 /* XakerSDKTest-umbrella.h */,
+				85F8A00196A199FC646D4948890E1CCD /* XakerSDKTest.debug.xcconfig */,
+				4AA9EB49EFD26A4E699ACA1BC8693DC2 /* XakerSDKTest.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/XakerSDKTest";
+			sourceTree = "<group>";
+		};
+		4E8B36762D8EF93FEBAB6DFDF076343E /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				46724751A917A7E6DE0C30951E647885 /* LICENSE */,
+				1905DE2E0CE672D96ACC9F06BC600669 /* README.md */,
+				2CA948D67C0541B6A37C1F83980C3B34 /* XakerSDKTest.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5F0B109FB37B1B25D57EFC1AC91BFA80 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D5E0287D37730D2261FC841A3865E297 /* XakerSDKTest */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		79A88C0D19C7AEA1BD9DA18F9AFAAFFF /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B1026C403BFAD4B6FE62626E3EE30F05 /* Pods-XakerSDKTest_Example */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B1026C403BFAD4B6FE62626E3EE30F05 /* Pods-XakerSDKTest_Example */ = {
+			isa = PBXGroup;
+			children = (
+				0178885F8B04F3BB4BAFBC35A93B8F87 /* Pods-XakerSDKTest_Example.modulemap */,
+				E89A59EC582FA3871850084E4D31280C /* Pods-XakerSDKTest_Example-acknowledgements.markdown */,
+				D7E3155CCD5B1502CC3EBFDE6FD54224 /* Pods-XakerSDKTest_Example-acknowledgements.plist */,
+				4F8E01738555BE62809FE566AA4ED897 /* Pods-XakerSDKTest_Example-dummy.m */,
+				0EE6A52034F9C8D92C6D84A918D17D19 /* Pods-XakerSDKTest_Example-frameworks.sh */,
+				79BAEDB8A839527B6E9E21CB9C59CC45 /* Pods-XakerSDKTest_Example-Info.plist */,
+				2CAD4C0575FF0A78F734277859C721CA /* Pods-XakerSDKTest_Example-umbrella.h */,
+				BA0AD51DF969D991D9FF91E88581E3C5 /* Pods-XakerSDKTest_Example.debug.xcconfig */,
+				8B65514ADC534F53E26C3A7949F6E1FE /* Pods-XakerSDKTest_Example.release.xcconfig */,
+			);
+			name = "Pods-XakerSDKTest_Example";
+			path = "Target Support Files/Pods-XakerSDKTest_Example";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				5F0B109FB37B1B25D57EFC1AC91BFA80 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				0F06F5552153CA023910E0D92CACA59A /* Products */,
+				79A88C0D19C7AEA1BD9DA18F9AFAAFFF /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D5E0287D37730D2261FC841A3865E297 /* XakerSDKTest */ = {
+			isa = PBXGroup;
+			children = (
+				BF86AF81EF41007D7DA31157B850B8BE /* SomeClass.swift */,
+				4E8B36762D8EF93FEBAB6DFDF076343E /* Pod */,
+				3A23DF86B71F8517F1B1358BDEE80373 /* Support Files */,
+			);
+			name = XakerSDKTest;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		412BAB588774F247461C29BA24E640D0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10A9C6A431DD986D1DA1EF4CC1CF12CB /* XakerSDKTest-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8057B39F97D3DDF9F1E810A752DCA476 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				056CBAC7A05C41E403C522AC5BEE62FD /* Pods-XakerSDKTest_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		19AC8E6C56581E76EAE1C5251E4F7CD5 /* Pods-XakerSDKTest_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FC8EDF7587731F2E7AFE5B61AF6A098 /* Build configuration list for PBXNativeTarget "Pods-XakerSDKTest_Example" */;
+			buildPhases = (
+				8057B39F97D3DDF9F1E810A752DCA476 /* Headers */,
+				789238A692B685F39C23ADA60491EAAE /* Sources */,
+				823ED03882B64AF8F2C701D2DF54769E /* Frameworks */,
+				BF2A3693E445BD673D9F7BAA3812060E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33DD705037DFE2ED868368E3965AD59E /* PBXTargetDependency */,
+			);
+			name = "Pods-XakerSDKTest_Example";
+			productName = Pods_XakerSDKTest_Example;
+			productReference = 0BE5E8D04FB72732CC71A84D97A29294 /* Pods-XakerSDKTest_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		C9682AB8AB297F2E3A63A549661CC36E /* XakerSDKTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA55EA88EBF360F0955559D33904A0DE /* Build configuration list for PBXNativeTarget "XakerSDKTest" */;
+			buildPhases = (
+				412BAB588774F247461C29BA24E640D0 /* Headers */,
+				F9540EEC142E585E1458382ADA12F55C /* Sources */,
+				0F9A016FFE0F0CFEEDFDE1E3AC3956E1 /* Frameworks */,
+				C7F9A488D99FFBEA4E000B1560687A14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XakerSDKTest;
+			productName = XakerSDKTest;
+			productReference = 1D21BFFA966F6AB26D6548AE8B75C7AD /* XakerSDKTest */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 0F06F5552153CA023910E0D92CACA59A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				19AC8E6C56581E76EAE1C5251E4F7CD5 /* Pods-XakerSDKTest_Example */,
+				C9682AB8AB297F2E3A63A549661CC36E /* XakerSDKTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF2A3693E445BD673D9F7BAA3812060E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7F9A488D99FFBEA4E000B1560687A14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		789238A692B685F39C23ADA60491EAAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CDB12418ED46B34D7C63921093BFF2B /* Pods-XakerSDKTest_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9540EEC142E585E1458382ADA12F55C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72E2EB047C2658DB490EF460CB80214F /* SomeClass.swift in Sources */,
+				4D95727C5433AE35A29E585682C5058F /* XakerSDKTest-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		33DD705037DFE2ED868368E3965AD59E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = XakerSDKTest;
+			target = C9682AB8AB297F2E3A63A549661CC36E /* XakerSDKTest */;
+			targetProxy = 72722C16FA504F7562FFAB0BD74797CC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1022ADB25F15BD01E0CC5487103510B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B65514ADC534F53E26C3A7949F6E1FE /* Pods-XakerSDKTest_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-XakerSDKTest_Example/Pods-XakerSDKTest_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XakerSDKTest_Example/Pods-XakerSDKTest_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2B9E26EAE2CD392AD762421F663075A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		63FAF33E1C55B71A5F5A8B3CC8749F99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		C52D40A00DB12987F55C360BF7A0ADC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA0AD51DF969D991D9FF91E88581E3C5 /* Pods-XakerSDKTest_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-XakerSDKTest_Example/Pods-XakerSDKTest_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XakerSDKTest_Example/Pods-XakerSDKTest_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CBEAC7A54A8FF6C4E10C859A52584F0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85F8A00196A199FC646D4948890E1CCD /* XakerSDKTest.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/XakerSDKTest/XakerSDKTest-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XakerSDKTest/XakerSDKTest-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/XakerSDKTest/XakerSDKTest.modulemap";
+				PRODUCT_MODULE_NAME = XakerSDKTest;
+				PRODUCT_NAME = XakerSDKTest;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F62915901D838F359E8F4F77A5F2E5CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AA9EB49EFD26A4E699ACA1BC8693DC2 /* XakerSDKTest.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/XakerSDKTest/XakerSDKTest-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XakerSDKTest/XakerSDKTest-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/XakerSDKTest/XakerSDKTest.modulemap";
+				PRODUCT_MODULE_NAME = XakerSDKTest;
+				PRODUCT_NAME = XakerSDKTest;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2FC8EDF7587731F2E7AFE5B61AF6A098 /* Build configuration list for PBXNativeTarget "Pods-XakerSDKTest_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C52D40A00DB12987F55C360BF7A0ADC8 /* Debug */,
+				1022ADB25F15BD01E0CC5487103510B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B9E26EAE2CD392AD762421F663075A1 /* Debug */,
+				63FAF33E1C55B71A5F5A8B3CC8749F99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA55EA88EBF360F0955559D33904A0DE /* Build configuration list for PBXNativeTarget "XakerSDKTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBEAC7A54A8FF6C4E10C859A52584F0C /* Debug */,
+				F62915901D838F359E8F4F77A5F2E5CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
